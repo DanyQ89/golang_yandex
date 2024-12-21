@@ -8,12 +8,12 @@
 - ### пишем запросы в postman 
     - Пишем строку подключения:<br>
         - http://localhost:8080/api/v1/calculate
-•Выбираем метод POST
-•Переходим в параметр Body, выбираем raw и пишем по очереди:
-1. code 200 + result
-{
-    "expression": "2+2*2"
-}
+    - Выбираем метод POST
+    - Переходим в параметр Body, выбираем raw и пишем по очереди:
+        - 1. code 200 + result
+        {
+            "expression": "2+2*2"
+        }
 
 2. code 422 + error
 {
