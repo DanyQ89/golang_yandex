@@ -1,7 +1,7 @@
 # Calculation service
 
 - ### клонируем проект себе в репозиторий
-- ### для проверки запросов я использовал Postman (https://www.postman.com/downloads/)
+- ### Устанавливаем Postman (https://www.postman.com/downloads/)
 - ### пишем в терминал команду: 
 - go run ./cmd/calc_service/...
 - ### Принимаем все условия сервера
