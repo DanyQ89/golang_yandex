@@ -11,18 +11,16 @@
     - Выбираем метод POST
     - Переходим в параметр Body, выбираем raw и пишем любой из 3 запросов:
         - code 200 + result<br>
-        `{<br>
+        `{
             "expression": "2+2*2"
         }`
-
-2. code 422 + error
-{
-    "expression": "2+2*2a"
-}
-
-3. code 500 + error
-{
-    "expression": 22
-}
+        - code 422 + error<br>
+        `{
+            "expression": "2+2*2a"
+        }`
+        - code 500 + error<br>
+        `{
+            "expression": 22
+        }`
 
 ![image](https://github.com/user-attachments/assets/d3c14530-ee70-4ceb-9ae4-ff08fb07d524)
