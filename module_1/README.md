@@ -5,7 +5,7 @@
 - ### пишем в терминал команду: 
     `go run ./cmd/calc_service/...`
 - ### Принимаем все условия сервера
-- ### пишем запросы в postman
+- ### пишем запросы в Postman
     - New - http    
     - Пишем строку подключения:<br>
       `http://localhost:8080/api/v1/calculate`
