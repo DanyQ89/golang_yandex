@@ -23,4 +23,4 @@ http://localhost:8080/api/v1/calculate
     "expression": 22
 }
 
-![image](https://github.com/user-attachments/assets/da58faca-bd96-4f1c-b4c5-45f2670affcc)
+![image](https://github.com/user-attachments/assets/d3c14530-ee70-4ceb-9ae4-ff08fb07d524)
