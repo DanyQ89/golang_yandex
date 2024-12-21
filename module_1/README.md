@@ -6,8 +6,8 @@
     `go run ./cmd/calc_service/...`
 - ### Принимаем все условия сервера
 - ### пишем запросы в postman 
-    - Пишем строку подключения:<br>
-        - `http://localhost:8080/api/v1/calculate`
+    - Пишем строку подключения:
+      `http://localhost:8080/api/v1/calculate`
 •Выбираем метод POST
 •Переходим в параметр Body, выбираем raw и пишем по очереди:
 1. code 200 + result
