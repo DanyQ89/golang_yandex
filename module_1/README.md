@@ -1,6 +1,6 @@
 # Calculation service
 
-- ### клонируем проект себе в репозиторий
+- ### клонируем репозиторий
 - ### Устанавливаем Postman (https://www.postman.com/downloads/)
 - ### пишем в терминал команду: 
     `go run ./cmd/calc_service/...`
