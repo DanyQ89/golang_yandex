@@ -10,7 +10,7 @@
       `http://localhost:8080/api/v1/calculate`
     - Выбираем метод POST
     - Переходим в параметр Body, выбираем raw и пишем любой из 3 запросов:
-        - code 200 + result
+        - code 200 + result<br>
         `{
             "expression": "2+2*2"
         }`
