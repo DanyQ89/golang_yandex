@@ -3,17 +3,17 @@
 - ### клонируем проект себе в репозиторий
 - ### Устанавливаем Postman (https://www.postman.com/downloads/)
 - ### пишем в терминал команду: 
-    - go run ./cmd/calc_service/...
+    `go run ./cmd/calc_service/...`
 - ### Принимаем все условия сервера
 - ### пишем запросы в postman 
     - Пишем строку подключения:<br>
-        - http://localhost:8080/api/v1/calculate
-    - Выбираем метод POST
-    - Переходим в параметр Body, выбираем raw и пишем по очереди:
-        - 1. code 200 + result
-        {
-            "expression": "2+2*2"
-        }
+        - `http://localhost:8080/api/v1/calculate`
+•Выбираем метод POST
+•Переходим в параметр Body, выбираем raw и пишем по очереди:
+1. code 200 + result
+{
+    "expression": "2+2*2"
+}
 
 2. code 422 + error
 {
