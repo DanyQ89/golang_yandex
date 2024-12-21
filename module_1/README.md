@@ -9,11 +9,11 @@
     - Пишем строку подключения:<br>
       `http://localhost:8080/api/v1/calculate`
     - Выбираем метод POST
-    - Переходим в параметр Body, выбираем raw и пишем по очереди:
-1. code 200 + result
-{
-    "expression": "2+2*2"
-}
+    - Переходим в параметр Body, выбираем raw и пишем любой из 3 запросов:
+        - code 200 + result
+        `{
+            "expression": "2+2*2"
+        }`
 
 2. code 422 + error
 {
